@@ -294,9 +294,9 @@ return articleContainer;
 
 data.forEach(d =>{
   const article = articleMaker(d)
-  console.log(article)
+  // console.log(article)
   const articlesDive = document.querySelector('.articles')
-console.log(articlesDive)
+// console.log(articlesDive)
 articlesDive.append(article)
 })
 
